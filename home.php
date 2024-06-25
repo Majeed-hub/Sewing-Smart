@@ -32,7 +32,7 @@ include 'components/wishlist_cart.php';
             <div class="swiper-wrapper">
                <div class="swiper-slide slide">
                   <div class="image">
-                     <img src="images/home-img-1.png" alt="">
+                     <img src="./uploaded_img/2.png" alt="">
                   </div>
                   <div class="content">
                      <span>upto 50% off</span>
@@ -43,22 +43,22 @@ include 'components/wishlist_cart.php';
 
                <div class="swiper-slide slide">
                   <div class="image">
-                     <img src="images/home-img-2.png" alt="">
+                     <img src="./uploaded_img/sewing smart categories.png" alt="">
                   </div>
                   <div class="content">
-                     <span>upto 50% off</span>
-                     <h3>latest watches</h3>
+                     <span>upto 10% off</span>
+                     <h3>latest Machines</h3>
                      <a href="shop.php" class="btn">shop now</a>
                   </div>
                </div>
 
                <div class="swiper-slide slide">
                   <div class="image">
-                     <img src="images/home-img-3.png" alt="">
+                     <img src="./uploaded_img/threads.png" alt="">
                   </div>
                   <div class="content">
                      <span>upto 50% off</span>
-                     <h3>latest headsets</h3>
+                     <h3>latest threads</h3>
                      <a href="shop.php" class="btn">shop now</a>
                   </div>
                </div>
@@ -82,43 +82,37 @@ include 'components/wishlist_cart.php';
          <div class="swiper-wrapper">
 
             <a href="category.php?category=scissor" class="swiper-slide slide">
-               <img src="images/icon-1.png" alt="">
+               <img src="./category_images/5.png" alt="">
                <h3>scissor</h3>
             </a>
 
-            <a href="category.php?category=tv" class="swiper-slide slide">
-               <img src="images/icon-2.png" alt="">
-               <h3>tv</h3>
+            <a href="category.php?category=machine" class="swiper-slide slide">
+               <img src="./category_images/2.png" alt="">
+               <h3>machine</h3>
             </a>
 
-            <a href="category.php?category=camera" class="swiper-slide slide">
-               <img src="images/icon-3.png" alt="">
-               <h3>camera</h3>
+            <a href="category.php?category=table" class="swiper-slide slide">
+               <img src="./category_images/4.png" alt="">
+               <h3>table</h3>
             </a>
 
-            <a href="category.php?category=mouse" class="swiper-slide slide">
-               <img src="images/icon-4.png" alt="">
-               <h3>mouse</h3>
+            <a href="category.php?category=oil" class="swiper-slide slide">
+               <img src="./category_images/7.png" alt="">
+               <h3>oil</h3>
             </a>
 
-            <a href="category.php?category=fridge" class="swiper-slide slide">
-               <img src="images/icon-5.png" alt="">
-               <h3>fridge</h3>
+            <a href="category.php?category=motor" class="swiper-slide slide">
+               <img src="./category_images/3.png" alt="">
+               <h3>motor</h3>
             </a>
 
-            <a href="category.php?category=washing" class="swiper-slide slide">
-               <img src="images/icon-6.png" alt="">
-               <h3>washing machine</h3>
+            <a href="category.php?category=iron" class="swiper-slide slide">
+               <img src="./category_images/6.png" alt="">
+               <h3>iron</h3>
             </a>
-
-            <a href="category.php?category=smartphone" class="swiper-slide slide">
-               <img src="images/icon-7.png" alt="">
-               <h3>smartphone</h3>
-            </a>
-
-            <a href="category.php?category=watch" class="swiper-slide slide">
-               <img src="images/icon-8.png" alt="">
-               <h3>watch</h3>
+            <a href="category.php?category=spare part" class="swiper-slide slide">
+               <img src="./category_images/8.png" alt="">
+               <h3>spare parts</h3>
             </a>
 
          </div>
@@ -153,7 +147,7 @@ include 'components/wishlist_cart.php';
                      <img src="uploaded_img/<?= $fetch_product['image_01']; ?>" alt="">
                      <div class="name"><?= $fetch_product['name']; ?></div>
                      <div class="flex">
-                        <div class="price"><span>$</span><?= $fetch_product['price']; ?><span>/-</span></div>
+                        <div class="price"><span>&#8377;</span><?= $fetch_product['price']; ?><span>/-</span></div>
                         <input type="number" name="qty" class="qty" min="1" max="99" onkeypress="if(this.value.length == 2) return false;" value="1">
                      </div>
                      <input type="submit" value="add to cart" class="btn" name="add_to_cart">
